@@ -10,6 +10,9 @@
 .DirectionColumn{
     flex-direction: column;
 }
+.FlexWrap{
+    flex-wrap: wrap;
+}
 .JustifyContentBetween{
     justify-content: space-between;
 }
@@ -65,9 +68,11 @@ h1{
     margin: 0 auto;
     border: 1px solid black;
 }
+.margin{
+    margin-top: 130px;
+}
 h2{
     font-size: 25px;
-    margin-top: 130px;
 }
 .radio{
     min-height: 30px;
@@ -95,7 +100,7 @@ h2{
     background-color: green;
     min-height: 570px;
 }
-.Bcpink{
+.BCpink{
     background-color: pink;
     min-height: 570px;
 
@@ -108,4 +113,20 @@ h2{
     border: 1px solid black;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+/*business*/
+.MarginTop{
+    margin-top: 60px;
+}
+.MiniBox{
+    width: calc( 100% / 3 - 2px );
+    min-height: 380px;
+    margin-top: 30px;
+}
+.BoxButtomBusiness{
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+.BoxButtomBusiness > h2{
+    margin-bottom: 40px;
 }
