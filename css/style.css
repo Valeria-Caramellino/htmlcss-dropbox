@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Flex{
+    display: flex;
+}
+.JustifyContentBetween{
+    justify-content: space-between;
+}
+.JustifyContentCenter{
+    justify-content: center;
+}
+.AlignContentBetween{
+    align-content: space-between;
+}
+.AlignContentCenter{
+    align-content: center;
+}
+/*testata*/
+.containerHeader{
+    width: 100%;
+    background-color: blue;
+}
+.LeftHeader, .RightHeader{
+    width: 30%;
+    padding: 2%;
+    background-color: pink;
+}
+/*sotto testata*/
+.ContainerSectionLightBlue{
+    width: 100%;
+    background-color: lightblue;
+}
+.BoxLightBlue{
+    width: 60%;
+    background-color: rgb(175, 28, 28);
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 90px;
+}
+.ContainerBoxLightBlue{
+    width: 100%;
+}
+.BoxLightBlueLeft{
+    width: 40%;
+    background-color: aqua;
+}
+.BoxLightBlueRight{
+    width: 60%;
+    background-color:aquamarine;
+}
+.BoxLightBlueLeft, .BoxLightBlueRight{
+    min-height: 320px;
+    margin-top: 60px;
+}
