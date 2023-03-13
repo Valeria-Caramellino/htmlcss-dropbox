@@ -32,6 +32,7 @@
 .w40{ width: 40%;}
 .w50 { width: 50%;}
 .w60{ width: 60%;}
+.w80 { width: 80%; }
 .w100 {width: 100%;}
 /*testata*/
 .containerHeader, .BCblue{
@@ -103,19 +104,12 @@ h2{
     background-color: green;
     min-height: 570px;
 }
-.BCpink{
-    background-color: pink;
-    min-height: 570px;
-
-}
 .BCOrange{
     background-color: orange;
 }
 .BCblue, .BCOrange{
-    min-height: 100%;
+    min-height: 500px;
     border: 1px solid black;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 /*business*/
 .MarginTop{
@@ -152,4 +146,32 @@ h2{
 .BCViolette{
     background-color: violet;
     min-height: 250px;
+}
+/*domande frequenti*/
+.CasualHeight{
+    min-height: 330px;
+    margin-top: 100px;
+}
+/*footer*/
+footer{
+    
+    background-color: black;
+}
+.BoxFooter{
+    min-height: 450px;
+}
+.ContainerFooter{
+    width: calc( 100% / 5 - 3px );
+}
+.BCYellow{
+    background-color: gold;
+    min-height: 190px;
+    border: 1px solid black;
+}
+.Italiano{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid white;
+    color: white;
+    margin: 0 auto;
 }
