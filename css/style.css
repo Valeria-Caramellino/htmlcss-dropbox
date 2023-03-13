@@ -34,14 +34,28 @@
 .w60{ width: 60%;}
 .w80 { width: 80%; }
 .w100 {width: 100%;}
+.BCWhite{
+    background-color: white;
+}
 /*testata*/
-.containerHeader, .BCblue{
-    background-color: blue;
+.containerHeader{
+  
 }
 .LeftHeader, .RightHeader{
-    padding: 2%;
-    background-color: pink;
+   padding: 20px 10px;
 }
+.logo{ height: 20px;}
+.LeftHeader > a, .RightHeader > a{
+    color: black;
+    text-decoration: none;
+}
+.RightHeader > button{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
 /*sotto testata*/
 .ContainerSectionLightBlue{
     background-color: lightblue;
