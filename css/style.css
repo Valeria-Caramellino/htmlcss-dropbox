@@ -25,6 +25,9 @@
 .AlignContentCenter{
     align-content: center;
 }
+.AlignItemsCenter{
+    align-items: center;
+}
 .w30{ width: 30%;}
 .w40{ width: 40%;}
 .w50 { width: 50%;}
@@ -62,7 +65,7 @@ h1{
 }
 /*tariffe*/
 .ContainerSection{
-    background-color: aliceblue;
+    background-color: rgb(120, 166, 207);
 }
 .BoxSection{
     margin: 0 auto;
@@ -129,4 +132,24 @@ h2{
 }
 .BoxButtomBusiness > h2{
     margin-bottom: 40px;
+}
+/*container immagini*/
+.ContainerImg{
+    width: calc( 100vw / 3);
+    background-color: darkgoldenrod;
+    height: calc( 100vw / 3 );
+    border: 1px solid black;
+}
+.BoxImg{
+    border: 1px solid black;
+    width: calc( 100% / 2);
+    height: calc( 100% / 2);
+}
+.textButtom{
+    min-height: 120px;
+    background-color: red;
+}
+.BCViolette{
+    background-color: violet;
+    min-height: 250px;
 }
