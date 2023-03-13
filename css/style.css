@@ -7,6 +7,9 @@
 .Flex{
     display: flex;
 }
+.DirectionColumn{
+    flex-direction: column;
+}
 .JustifyContentBetween{
     justify-content: space-between;
 }
@@ -19,23 +22,24 @@
 .AlignContentCenter{
     align-content: center;
 }
+.w30{ width: 30%;}
+.w40{ width: 40%;}
+.w50 { width: 50%;}
+.w60{ width: 60%;}
+.w100 {width: 100%;}
 /*testata*/
-.containerHeader{
-    width: 100%;
+.containerHeader, .BCblue{
     background-color: blue;
 }
 .LeftHeader, .RightHeader{
-    width: 30%;
     padding: 2%;
     background-color: pink;
 }
 /*sotto testata*/
 .ContainerSectionLightBlue{
-    width: 100%;
     background-color: lightblue;
 }
 .BoxLightBlue{
-    width: 60%;
     background-color: rgb(175, 28, 28);
 }
 h1{
@@ -43,18 +47,65 @@ h1{
     text-align: center;
     margin-top: 90px;
 }
-.ContainerBoxLightBlue{
-    width: 100%;
-}
 .BoxLightBlueLeft{
-    width: 40%;
     background-color: aqua;
 }
 .BoxLightBlueRight{
-    width: 60%;
     background-color:aquamarine;
 }
 .BoxLightBlueLeft, .BoxLightBlueRight{
     min-height: 320px;
     margin-top: 60px;
+}
+/*tariffe*/
+.ContainerSection{
+    background-color: aliceblue;
+}
+.BoxSection{
+    margin: 0 auto;
+    border: 1px solid black;
+}
+h2{
+    font-size: 25px;
+    margin-top: 130px;
+}
+.radio{
+    min-height: 30px;
+    background-color: burlywood;
+    margin-top: 50px;
+}
+.ContainerRate{
+    border: 1px solid blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Column{
+    width: calc(100% / 3 - 5px);
+    min-height: 750px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+.BoxSectionTeam{
+    min-height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+/*entra in contatto*/
+.BCgreen{
+    background-color: green;
+    min-height: 570px;
+}
+.Bcpink{
+    background-color: pink;
+    min-height: 570px;
+
+}
+.BCOrange{
+    background-color: orange;
+}
+.BCblue, .BCOrange{
+    min-height: 100%;
+    border: 1px solid black;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
