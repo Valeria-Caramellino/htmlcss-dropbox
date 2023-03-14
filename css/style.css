@@ -256,13 +256,23 @@ div.MiniBox > p{
 .paddingTop{
     padding-top: 50px;
 }
-
-.textButtom{
-    min-height: 120px;
-    background-color: red;
+.Right{
+    text-align: right;
+}
+div.Right > button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+div.Left{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #61082b;
 }
 .BCViolette{
-    background-color: violet;
+    background-color:  #b4d0e7;
     min-height: 250px;
 }
 /*domande frequenti*/
