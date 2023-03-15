@@ -218,7 +218,7 @@ div.MiniBox > p{
 }
 .img1{
     width: 50%;
-    filter: invert( 100% ) sepia( 5% ) saturate( 2% ) hue-rotate( 148deg ) brightness( 114% ) contrast( 100% );
+    filter: invert( 100% );
 }
 .img2{
     width: 70%;
@@ -284,6 +284,15 @@ div.Left{
 .freciaBottom{
     font-size: 20px;
     padding-right: 20px;
+}
+.Faq:hover h4  span{
+    transform: rotate(180deg);
+}
+.Faq:hover p {
+    display: flex;
+}
+p.none{
+    display: none;
 }
 /*footer*/
 footer{
