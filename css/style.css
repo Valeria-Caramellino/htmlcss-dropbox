@@ -163,7 +163,7 @@ label{
 div > span {
     color: blue;
 }
-div.Flex.DirectionColumn.w100.h100 > div , p{
+div.Flex.DirectionColumn.w100.h100 > div{
     padding: 10px;
 }
 div.Flex.JustifyContentCenter >button{
