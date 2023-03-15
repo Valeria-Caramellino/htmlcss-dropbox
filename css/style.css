@@ -42,6 +42,11 @@ body{
 .AlignContentAround{
     align-content: space-around;
 }
+.AlignItemsBaseline{
+    align-items: baseline;
+}
+.AlignItemsStart{ align-items: flex-start;}
+
 .w10{ width: 10%;}
 .w20{ width: 20%;}
 .w30{ width: 30%;}
@@ -51,6 +56,9 @@ body{
 .w80 { width: 80%; }
 .w100 {width: 100%;}
 .h100{ height: 100%;}
+
+.Margin10px{ margin: 10px;}
+
 .BCWhite{
     background-color: white;
 }
@@ -130,9 +138,6 @@ div.Column > div{
     padding: 10px;
     border-bottom: 1px solid black;
 }
-div > i{
-    padding-right: 8px;
-}
 .BoxSectionTeam{
     border: 1px solid black;
 }
@@ -155,11 +160,11 @@ label{
     cursor: pointer;
     padding: 3px;
 }
-p > span {
+div > span {
     color: blue;
 }
 div.Flex.DirectionColumn.w100.h100 > div , p{
-    padding: 5px;
+    padding: 10px;
 }
 div.Flex.JustifyContentCenter >button{
     padding: 10px 20px;
