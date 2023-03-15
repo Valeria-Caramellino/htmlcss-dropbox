@@ -218,6 +218,7 @@ div.MiniBox > p{
 }
 .img1{
     width: 50%;
+    filter: invert( 100% ) sepia( 5% ) saturate( 2% ) hue-rotate( 148deg ) brightness( 114% ) contrast( 100% );
 }
 .img2{
     width: 70%;
@@ -305,7 +306,4 @@ footer{
     border-top: 1px solid white;
     color: white;
     margin-left: 150px;
-}
-div.Italiano > div , p{
-    margin-top: 30px;
 }
